@@ -6,8 +6,7 @@ public interface Telephone {
     //is Ringing?
 
     void powerON();
-    void dial(String phoneNumber);
-    void answer();
-    boolean callPone();
+    void dial(long phoneNumber);
+    void answer(long phoneNumber);
     boolean isRinging();
 }
